@@ -1,0 +1,10 @@
+<dll name="/usr/lib64/libc.so.6">
+    <i f="strcpy" a="ptpt" r="vo" />
+    <i f="printf" a="pt.." r="vo" />
+</dll>
+<xml>
+    <set ="dest" type="str" ="        " />
+    <set ="src" type="str" ="test3" />
+    <strcpy :"dest" :"src" />
+    <printf ="dest:%s" :"dest" />
+</xml>

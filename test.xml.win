@@ -1,0 +1,10 @@
+<dll name="msvcrt.dll">
+    <i f="strcpy" a="ptpt" r="vo" an="dest,src" />
+    <i f="printf" a="pt.." r="vo" />
+</dll>
+<xml>
+    <set ="dest" type="str" ="        " />
+    <set ="src" type="str" ="test3" />
+    <strcpy :"dest" :"src" />
+    <printf ="dest:%s---" ="dest2" />
+</xml>
